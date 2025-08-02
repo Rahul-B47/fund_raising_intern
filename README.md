@@ -23,8 +23,7 @@ A modern and responsive Flutter app designed for fundraising interns to manage d
 
 ---
 
-## 🛠️ Project Structure
-
+```bash
 assets/
 ├── fonts/
 │   ├── Poppins-Bold.ttf
@@ -36,46 +35,43 @@ assets/
 
 lib/
 ├── data/
-│   └── mock_data.dart
+│   └── mock_data.dart                  # Dummy data for UI
 ├── models/
-│   ├── announcement_model.dart
-│   ├── intern_model.dart
-│   ├── leaderboard_model.dart
-│   └── reward_model.dart
+│   ├── announcement_model.dart         # Model for announcements
+│   ├── intern_model.dart               # Intern data model
+│   ├── leaderboard_model.dart          # Model for leaderboard
+│   └── reward_model.dart               # Model for rewards
 ├── screens/
-│   ├── announcements_screen.dart
-│   ├── dashboard_screen.dart
-│   ├── leaderboard_screen.dart
-│   ├── login_screen.dart
-│   └── main_screen.dart
+│   ├── announcements_screen.dart       # Announcements UI
+│   ├── dashboard_screen.dart           # Dashboard main UI
+│   ├── leaderboard_screen.dart         # Leaderboard page
+│   ├── login_screen.dart               # Login page
+│   └── main_screen.dart                # Bottom navigation holder
 ├── utils/
-│   ├── app_routes.dart
-│   ├── constants.dart
-│   ├── styles.dart
-│   └── theme.dart
+│   ├── app_routes.dart                 # Route names and navigation
+│   ├── constants.dart                  # App-wide constants
+│   ├── styles.dart                     # Text styles
+│   └── theme.dart                      # ThemeData setup
 ├── widgets/
-│   ├── announcement_card.dart
-│   ├── app_drawer.dart
-│   ├── custom_button.dart
-│   ├── custom_text_field.dart
-│   ├── dashboard_card.dart
-│   ├── leaderboard_tile.dart
-│   └── reward_card.dart
-└── main.dart
+│   ├── announcement_card.dart          # Card widget for announcement
+│   ├── app_drawer.dart                 # Drawer menu (optional)
+│   ├── custom_button.dart              # Custom styled buttons
+│   ├── custom_text_field.dart          # Input fields for login
+│   ├── dashboard_card.dart             # Widget for dashboard items
+│   ├── leaderboard_tile.dart           # Tile for leaderboard entry
+│   └── reward_card.dart                # Card for rewards
+└── main.dart                           # Entry point of the app
 
 linux/
 macos/
 test/
-├── widget_test.dart
+└── widget_test.dart                    # Sample widget test
 
 .idea/
 .android/
 .ios/
 .build/
-
-
----
-
+```
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
@@ -89,6 +85,7 @@ flutter pub get
 
 ### Run the app
 flutter run
+
 
 
 
