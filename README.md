@@ -23,6 +23,21 @@ A modern and responsive Flutter app designed for fundraising interns to manage d
 
 ---
 
+## 🧪 Screenshots
+
+### 🔐 Login Screen  
+![Login](screenshots/Login.jpg)
+
+### 📊 Dashboard  
+![Dashboard](screenshots/Dashboard.jpg)
+
+### 🏆 Leaderboard  
+![Leaderboard](screenshots/Leaderboard.jpg)
+
+### 📣 Announcements  
+![Announcements](screenshots/Announcements.jpg)
+
+
 ```bash
 assets/
 ├── fonts/
@@ -85,6 +100,7 @@ flutter pub get
 
 ### Run the app
 flutter run
+
 
 
 
